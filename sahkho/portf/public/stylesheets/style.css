@@ -1,0 +1,17 @@
+body {
+  padding: 20px;
+  font-family: "Andale Mono", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #000000;
+  text-decoration: underline;
+  display: block;
+}
+
+a:hover {
+	color: #b31b1b;
+}
+
+
+

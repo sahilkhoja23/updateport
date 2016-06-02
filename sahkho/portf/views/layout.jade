@@ -1,0 +1,23 @@
+doctype html
+html
+	head
+		title= title
+		meta(name='viewport', content='width=device-width, initial-scale=1')
+		link(rel='stylesheet', href='/stylesheets/style.css')
+		link(rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.020/css/hack-extended.min.css")
+		link(href="https://npmcdn.com/basscss@8.0.1/css/basscss.min.css" rel="stylesheet")
+	body
+		block nav
+			.sm-col.sm-col-12
+				div(align="right")
+					a(href="/") 
+						h3 Home 
+					a(href="/portfolio")
+						h3 Portfolio
+					a(href="/resume")
+						h3 Resume 
+		block main
+		block content
+		block footer
+
+
